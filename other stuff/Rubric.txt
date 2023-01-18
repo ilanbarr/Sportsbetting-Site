@@ -1,0 +1,31 @@
+5 points - Turn it in on time (5 points) 
+
+
+Languages/Frameworks Used (15 points)
+10 – Flask for web scraping for box scores
+
+5 - Using API to grab sports odds
+
+
+
+
+
+Functionality (70)
+
+10 - Users can create accounts and log in
+15 – Betting odds are visible on website 
+15 – Users can place bets, 
+10 – Users can view past bets, 
+10 – Users can view open bets
+5 – Bets will be graded automatically and will update balance accordingly
+
+
+Best practices (5 points)
+2 All pages pass the HTML validator
+3 Code is readable and well formatted
+
+Creative Portion (20)
+Potentially add some betting knowledge/calculators onto site
+
+
+Prof. Sproull Approved

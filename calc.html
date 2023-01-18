@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="home.css" type="text/css"  rel="stylesheet">
+        <title>Barr's Bets</title>
+    </head>
+    <body>
+        <h1>Betting Site Calculators Page</h1>
+
+
+    <p> No Vig Calculator (European Odds)</p>
+    <script>
+        function noVig(){
+        const Number1 = Number(document.getElementById("input1").value);
+        const Number2 = Number(document.getElementById("input2").value);
+        const submit = document.getElementById("submit");
+        
+        const prob1 = 1/Number1 *100
+        const prob2  = 1/Number2 *100
+        const totalProb = prob1+prob2
+
+        const realProb1 = prob1/totalProb
+        const realProb2 = prob2/totalProb
+
+        const noVig1 = 1/(realProb1/100)
+        const noVig2 = 1/(realProb2/100)
+
+        // document.getElementById('noVig1').innerHTML=noVig1
+        // document.getElementById('noVig2').innerHTML=noVig2
+        alert("1: " + noVig1 +  " 2: " + noVig2 )
+    }
+    </script>
+       
+    </head>
+    
+    <body>
+    
+        
+    
+    
+    <form>
+        <label> Input1: <input type = "number" step = "0.0001" name="input1" id="input1" required=True/></label>
+        <label> Input2: <input type = "number" step = "0.0001" name="input2" id="input2" required=True/></label>
+    <br>
+        <label> <input type = "submit" name="Submit" id="submit" required=True/></label>
+<!--        
+        <div id="noVig1">ddd</div>
+        <div id="noVig2">ddd</div> -->
+
+      
+       
+    
+    </form>
+    <script>
+
+        document.getElementById("submit").addEventListener("click",noVig,false);
+       
+    </script>
+
+
+
+        </body>
+
+
+
+
+        </html>

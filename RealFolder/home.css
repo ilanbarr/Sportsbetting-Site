@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+    font-family: 'Courier';
+    color: white;
+}
+
+.link{
+    font-style: italic;
+}
+
+.createdOn{
+    font-weight: bold;
+}
+
+.by{
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.comment{
+    font-size: 12px;
+}
